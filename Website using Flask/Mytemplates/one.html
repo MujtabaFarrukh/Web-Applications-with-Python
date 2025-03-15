@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>This is my Home Page</title>
+</head>
+<body>
+    <h1>Welcome to my Home Page</h1>
+    <p>This is my first web page.</p>
+    <p>It is very simple.</p>
+    <p>But I am learning a lot.</p>
+    <p>And I am having fun</p>
+    <p>{{abc}}</p>  
+    
+    {% for i in range(1, 6) %}
+        {% if i%2==0 %}
+            <p>{{i}} is even</p>
+        {% else %}
+            <p>{{i}} is odd</p>
+        {% endif %} 
+    {% endfor %}
+</body>
+</html>
